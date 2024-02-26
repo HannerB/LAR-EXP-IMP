@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    @vite(['resources/scss/app.scss', 'resources/js/app.js'])
 </head>
-
+<!-- resources/views/welcome.blade.php -->
 <body>
     <header class="p-3 mb-3 border-bottom">
         <div class="container">
@@ -43,3 +45,4 @@
         </div>
     </header>
 </body>
+</html>
